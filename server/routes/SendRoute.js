@@ -22,7 +22,7 @@ router.get("/getMsgs", async (req, res) => {
     try {
         const result = await SendModel.find();
 
-        return res.status(200).json({message: "Messages Displayed!", result});
+        return res.status(200).json({ message: "Messages Displayed!", result });
     } catch (err) {
         return res.status(400).json({ message: err });
     }
