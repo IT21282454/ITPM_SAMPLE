@@ -1,0 +1,12 @@
+.admin-navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcf55f;
+    height: 4vw;
+}
+
+.admin-navbar-logo {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.quiz-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1vw;
+}
+
+.card {
+    height: 20vh;
+    cursor: pointer;
+}
